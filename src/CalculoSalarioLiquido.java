@@ -27,6 +27,7 @@ public class CalculoSalarioLiquido {
 	
 		double netSalary = salaryService.netSalary(employee);
 		System.out.printf("Salário Líquido = %.2f%n ", netSalary);
+		
 		sc.close();
 	}
 }
